@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Dataset (large, kept outside git)
+data/
+data_raw/
+*.rar
+*.zip
+
+# Offline wheels built from the local pip cache
+wheelhouse/
+
+# Training outputs (models, logs, predictions)
+runs/
+*.pt
+*.pth
+*.onnx
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
